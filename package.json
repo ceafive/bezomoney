@@ -1,0 +1,14 @@
+{
+  "name": "bezoz",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd api && yarn --only=dev --no-shrinkwrap && node ./bin/www",
+    "client": "cd client && yarn && npm start",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
